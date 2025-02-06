@@ -1,11 +1,17 @@
 <div style="text-align: center;">
-  <h2>juego de dados</h2>
-<app-dado valor="{{valor1}}"></app-dado>
-<app-dado valor="{{valor2}}"></app-dado>
-<app-dado valor="{{valor3}}"></app-dado>
+
+  <a href="https://paginaprin.netlify.app/" class="btn btn-secondary" style="margin-bottom: 20px; display: inline-block;">Volver</a>
+  <h2>Juego de dados</h2>
+  <app-dado valor="{{valor1}}"></app-dado>
+  <app-dado valor="{{valor2}}"></app-dado>
+  <app-dado valor="{{valor3}}"></app-dado>
 </div>
 <hr />
-<button type="button" class="btn btn-primary" (click)="tirarDados()">jugar </button>
+
+
+<div style="text-align: center;">
+  <button type="button" class="btn btn-primary" (click)="tirarDados()">Jugar</button>
+</div>
 
 <hr />
 <p>{{resultado}}</p>
